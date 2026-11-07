@@ -1,0 +1,73 @@
+cat > index.html <<'EOF'
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <h2>MyPortfolio</h2>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Hello, I'm a Student Developer</h1>
+        <p>I'm learning web development and version control.</p>
+        <a href="#projects" class="btn">View My Projects</a>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a student interested in technology, programming
+            and software development. I enjoy learning new skills
+            and building practical projects.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skills">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>Git</span>
+            <span>GitHub</span>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project">
+            <h3>Student Portfolio</h3>
+            <p>A personal website built using HTML and CSS.</p>
+        </div>
+        <div class="project">
+            <h3>Future Project</h3>
+            <p>More projects will be added as I continue learning.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: student@example.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Student Portfolio. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+EOF
